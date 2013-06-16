@@ -10,7 +10,7 @@ $twitterConnection = new TwitterOAuth(
 $twitterData = $twitterConnection->get(
 	'statuses/user_timeline',
 	 array(
-		 'screen_name'     => 'EnglishAssoc',
+		 'screen_name'     => 'TWITTERUSERNAMEHERE',
 		 'count'           => 1,
 		 'exclude_replies' => false
 	)
